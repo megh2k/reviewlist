@@ -29,7 +29,7 @@ export default function Home(props){
                     
 
                     <li className='li'><img className = "images" src = {`../images/${props.img}.jpg` } 
-                    alt={props.title}/></li>
+                    alt="this is not working"/></li>
 
                     <li className="li description">
                         <div>
