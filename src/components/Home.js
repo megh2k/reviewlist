@@ -1,6 +1,7 @@
 import React from "react"
 // import { Button } from 'react-bootstrap'
 
+
 export default function Home(props){
 
     let [hide, setHide] = React.useState(false);
@@ -29,7 +30,7 @@ export default function Home(props){
                 <div className="alignimg">
                     
 
-                    <li className='li'><img className = "images" src ={`https://github.com/megh2k/copy/tree/main/public/images/${props.title}.jpg`} 
+                    <li className='li'><img className = "images" src ={`https://storage.cloud.google.com/mp2k-images/images/${props.img}.jpg`}
                     /></li>
 
                     <li className="li description">

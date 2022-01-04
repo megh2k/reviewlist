@@ -22,17 +22,17 @@ export const List =
             description: "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks for his father who left him when he was younger." },
 
 
-            {title: "Attack on Titan", rating: 9.5, img : "attack_on_titan", 
+            {title: "Attack on Titan", rating: 9.5, img : "Attack_on_Titan", 
             seasons:str + "4", watching: true, favourites: true, 
             genre: ["animation", "action", "adventure"],
             description: "After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction."},
 
-            {title: "Demon Slayer", rating: 8.8, img : "demon_slayer", 
+            {title: "Demon Slayer", rating: 8.8, img : "Demon_Slayer", 
             seasons:str + "2", watching: true, favourites: false, 
             genre: ["animation", "action", "adventure"],
             description: "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister." },
 
-            {title: "Death Note", rating: 8.8, img : "death_note", 
+            {title: "Death Note", rating: 8.8, img : "Death_Note", 
             seasons:str + "1", watching: false, favourites: false, 
             genre: ["animation", "crime", "drama"],
             description: "An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it." },
