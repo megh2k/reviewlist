@@ -1,5 +1,5 @@
 import React from "react"
-// import { Button } from 'react-bootstrap'
+
 export default function Home(props){
 
     let [hide, setHide] = React.useState(false);
@@ -26,8 +26,10 @@ export default function Home(props){
                  </li>
                 {hide ? 
                 <div className="alignimg">
+                    
 
-                    <li className='li'><img className = "images" src = {`../images/${props.img}.jpg`} alt={props.title}/></li>
+                    <li className='li'><img className = "images" src = {`../images/${props.img}.jpg` } 
+                    alt={props.title}/></li>
 
                     <li className="li description">
                         <div>
