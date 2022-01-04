@@ -64,15 +64,15 @@ function App() {
               {listHome}
             </Route>
 
-            <Route path = "/home" >
+            <Route path = "/copy//home" >
               {listHome}
             </Route>
 
-            <Route path = "/currently_watching" >
+            <Route path = "copy/currently_watching" >
               {listWatching}
             </Route>
 
-            <Route path = "/favourites" >
+            <Route path = "copy/favourites" >
               {listFavourite}
             </Route>
           </Switch>
