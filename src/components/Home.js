@@ -1,5 +1,8 @@
 import React from "react"
+<<<<<<< HEAD
 // import { Button } from 'react-bootstrap'
+=======
+>>>>>>> b60155892570f3b8b478af878b0d285715209a54
 
 export default function Home(props){
 
@@ -29,8 +32,13 @@ export default function Home(props){
                 <div className="alignimg">
                     
 
+<<<<<<< HEAD
                     <li className='li'><img className = "images" src = {`../public/images/${props.img}.jpg` } 
                     alt={props.title}/></li>
+=======
+                    <li className='li'><img className = "images" src = {`../images/${props.img}.jpg` } 
+                    alt="this is not working"/></li>
+>>>>>>> b60155892570f3b8b478af878b0d285715209a54
 
                     <li className="li description">
                         <div>
