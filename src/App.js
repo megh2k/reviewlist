@@ -29,6 +29,7 @@ function App() {
   let listHome = List.sort().map( item =>
     {
         return <Home 
+        key = {item.title}
         {...item}/>
     })
 

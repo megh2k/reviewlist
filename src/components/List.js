@@ -113,7 +113,7 @@ export const List =
             genre: ["horror", "drama", "mystery"],
             description: "Flashing between past and present, a fractured family confronts haunting memories of their old home and the terrifying events that drove them from it." },
 
-            {title: "Chernobly", rating: 8.8, img : "chernobly", 
+            {title: "Chernobyl", rating: 8.8, img : "chernobyl", 
             seasons:str + "1", watching: false, favourites: false, 
             genre: ["history", "drama", "thriller"],
             description: "In April 1986, an explosion at the Chernobyl nuclear power plant in the Union of Soviet Socialist Republics becomes one of the world's worst man-made catastrophes." },
@@ -149,7 +149,7 @@ export const List =
             genre: ["crime", "drama", "mystery"],
             description: "A family saga with a supernatural twist, set in a German town, where the disappearance of two young children exposes the relationships among four families." },
 
-            {title: "Vikings", rating: 7.8, img : "vikings", 
+            {title: "Vinland Saga", rating: 7.8, img : "vinland_saga", 
             seasons:str + "1", watching: false, favourites: false, 
             genre: ["action", "animation", "adventure"],
             description: "Thorfinn pursues a journey with his father's killer in order to take revenge and end his life in a duel as an honorable warrior and pay his father a homage." },

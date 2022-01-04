@@ -27,7 +27,7 @@ export default function Home(props){
                 {hide ? 
                 <div className="alignimg">
 
-                    <li className='li'><img className = "images" src = {`../images/${props.img}.jpg`} /></li>
+                    <li className='li'><img className = "images" src = {`../images/${props.img}.jpg`} alt={props.title}/></li>
 
                     <li className="li description">
                         <div>
