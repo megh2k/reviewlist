@@ -30,7 +30,7 @@ export default function Home(props){
                 <div className="alignimg">
                     
 
-                    <li className='li'><img className = "images" src ={`https://storage.cloud.google.com/mp2k-images/images/${props.img}.jpg`}
+                    <li className='li'><img className = "images" src ={`https://storage.googleapis.com/mp2k-images/images/${props.img}.jpg`}
                     /></li>
 
                     <li className="li description">
