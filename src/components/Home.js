@@ -28,10 +28,9 @@ export default function Home(props){
                  </li>
                 {hide ? 
                 <div className="alignimg">
-                    
 
-                    <li className='li'><img className = "images" src ={`https://storage.googleapis.com/mp2k-images/images/${props.img}.jpg`}
-                    /></li>
+                    <li className='li'><img className = "images" src ={`https://storage.googleapis.com/mp2k-images/images/${props.img}.jpg`}/>
+                    </li>
 
                     <li className="li description">
                         <div>

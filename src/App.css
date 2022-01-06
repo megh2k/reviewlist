@@ -83,7 +83,18 @@ a.href:hover{
 }
 
 .href{
-font-family: 'Raleway', sans-serif;}
+font-family: 'Raleway', sans-serif;
+}
+
+.mainpage{
+  text-decoration: none;
+  color:deepskyblue;
+  font-size: 38px;
+  margin-right: auto;
+}
+a.mainpage:hover{
+  color:rgb(219, 141, 247) !important;
+}
 
 .navbar{
   font-family: 'Roboto Condensed', sans-serif;
@@ -136,4 +147,14 @@ h5{
   background-color: #282828 !important;
   color: aliceblue !important;
   border-color: #282828 !important;;
+}
+
+.cimages{
+  padding-top: 10px;
+  height: 420px;
+  width: 720px;
+  padding-right: 0px;
+  margin: auto;
+  margin-bottom: 80px;
+  padding-bottom: 10px;
 }

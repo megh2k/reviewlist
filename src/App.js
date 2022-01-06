@@ -4,6 +4,7 @@ import List from "./components/List"
 import Home from './components/Home'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import MainPage from "./components/MainPage"
 // import { Button } from 'react-bootstrap'
 
 
@@ -21,9 +22,6 @@ function App() {
       }
       return 0;
   });
-
-  
-
   
 
   let listHome = List.sort().map( item =>
@@ -61,11 +59,11 @@ function App() {
         <div>
           <Switch>
           <Route exact path = "/reviewlist" >
-            <h1 className='sort'>Hello there</h1>
+            <MainPage list = {List} />
             {/* nothing */}
             </Route>
 
-            <Route path = "/reviewlist/home" >
+            <Route path = "/reviewlist/list" >
               {listHome}
             </Route>
 
