@@ -62,6 +62,7 @@ function App() {
           <Switch>
           <Route exact path = "/reviewlist" >
             <h1 className='sort'>Hello there</h1>
+            {/* nothing */}
             </Route>
 
             <Route path = "/reviewlist/home" >
