@@ -60,19 +60,19 @@ function App() {
 
         <div>
           <Switch>
-          <Route exact path = "/" >
+          <Route exact path = "/reviewlist" >
+            <p color='white'>helo</p>
+            </Route>
+
+            <Route path = "/reviewlist/home" >
               {listHome}
             </Route>
 
-            <Route path = "/home" >
-              {listHome}
-            </Route>
-
-            <Route path = "/currently_watching" >
+            <Route path = "/reviewlist/currently_watching" >
               {listWatching}
             </Route>
 
-            <Route path = "/favourites" >
+            <Route path = "/reviewlist/favourites" >
               {listFavourite}
             </Route>
           </Switch>
