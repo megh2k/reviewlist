@@ -61,7 +61,7 @@ function App() {
         <div>
           <Switch>
           <Route exact path = "/reviewlist" >
-            <p color='white'>helo</p>
+            <h1 className='sort'>Hello there</h1>
             </Route>
 
             <Route path = "/reviewlist/home" >
