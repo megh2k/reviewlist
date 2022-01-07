@@ -4,7 +4,7 @@ nav{
   background-color: #212121;
   display: flex;
   align-items: center;
-  height: 75px;
+  height: 70px;
   padding:15px 25px;
 
 }
@@ -151,8 +151,8 @@ h5{
 
 .cimages{
   padding-top: 10px;
-  height: 420px;
-  width: 740px;
+  height: 440px;
+  width: 720px;
   padding-right: 0px;
   margin: auto;
   margin-bottom: 80px;
