@@ -45,13 +45,13 @@ export const List =
 
 
             {title: "One Punch Man ", rating: 8.2, img : "one-punch-man", 
-            seasons:str + "2", watching: true, favourites: false, 
+            seasons:str + "2", watching: false, favourites: false, 
             genre: ["animation", "action", "comedy"],
             description: "The story of Saitama, a hero that does it just for fun & can defeat his enemies with a single punch." },
         
 
             {title: "The Witcher ", rating: 8, img : "the_witcher", 
-            seasons:str + "2", watching: true, favourites: false, 
+            seasons:str + "2", watching: false, favourites: false, 
             genre: ["action", "adventure", "drama"],
             description: "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts." },
         
@@ -168,8 +168,12 @@ export const List =
             {title: "The Haunting of Bly Manor", rating: 7, img : "the_haunting_of_bly_manor", 
             seasons:str + "1", watching: false, favourites: false, 
             genre: ["horror", "drama", "mystery"],
-            description: "After an au pair’s tragic death, Henry hires a young American nanny to care for his orphaned niece and nephew who reside at Bly Manor with the chef Owen, groundskeeper Jamie and housekeeper, Mrs. Grose." },
+            description: "After an au pair's tragic death, Henry hires a young American nanny to care for his orphaned niece and nephew who reside at Bly Manor with the chef Owen, groundskeeper Jamie and housekeeper, Mrs. Grose." },
 
+            {title: "Black Clover", rating: 'N/A', img : "black_clover", 
+            seasons:str + "4", watching: true, favourites: false, 
+            genre: ["animation", "action", "adventure"],
+            description: "Asta and Yuno were abandoned together at the same church and have been inseparable since. As children, they promised that they would compete against each other to see who would become the next Emperor Magus." }
 
         ]
     
