@@ -173,7 +173,13 @@ export const List =
             {title: "Black Clover", rating: 'N/A', img : "black_clover", 
             seasons:str + "4", watching: true, favourites: false, 
             genre: ["animation", "action", "adventure"],
-            description: "Asta and Yuno were abandoned together at the same church and have been inseparable since. As children, they promised that they would compete against each other to see who would become the next Emperor Magus." }
+            description: "Asta and Yuno were abandoned together at the same church and have been inseparable since. As children, they promised that they would compete against each other to see who would become the next Emperor Magus." },
+
+            {title: "Jujutsu Kaisen", rating: 8.4, img : "jujutsu_kaisen", 
+            seasons:str + "1", watching: false, favourites: false, 
+            genre: ["action", "animation", "adventure"],
+            description: "A boy swallows a cursed talisman - the finger of a demon - and becomes cursed himself. He enters a shaman's school to be able to locate the demon's other body parts and thus exorcise himself." }
+
 
         ]
     
